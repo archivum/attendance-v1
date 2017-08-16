@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.roster-item {
+
+height: 200px;
+background-color: grey;
+
+margin: 50px;
+width: 100%;
+
+}
+
+.modal {
+	display: none;
+}
+
+.modal button{
+	margin-top: 40px;
+}
+
+.modal-on {
+	display: block;
+	background-color: black;
+	height: 200px;
+	position: absolute;
+	width: 300px;
+	/*opacity: 0.2;*/
+}
+
+.icon {
+	background-color: darkgrey;
+	background-image: url(img/icon-question.svg);
+	height: 100px;
+	width: 100px;
+	margin-left: 25px;
+}
+
+.icon-no {
+	background-image: url(img/icon-no.svg);
+	background-color: red;
+}
+
+.icon-yes {
+	background-image: url(img/icon-yes.svg);
+	background-color: green;
+}
